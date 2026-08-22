@@ -1096,6 +1096,10 @@
     { re: /\b(home|house|apartment|room|couch|key)\b/i, theme: "home" },
     { re: /\b(surprise|random|anything|whatever|pick)\b/i, theme: "surprise" },
     { re: /\b(side character|side)\b/i, theme: "friendship" },
+    { re: /\b(horse|horses|pony|ponies|equestrian)\b/i, theme: "home" },
+    { re: /\b(disney|princess movie|castle movie)\b/i, theme: "aesthetic" },
+    { re: /\b(fair(?:y|ies)|pixie|enchanted wood)\b/i, theme: "aesthetic" },
+    { re: /\b(pixar|found family)\b/i, theme: "friendship" },
     { re: /\b(quiz|question|tell me|about me|who am|what kind)\b/i, theme: "surprise" }
   ];
 

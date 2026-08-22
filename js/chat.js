@@ -8,6 +8,8 @@
     { label: "How I love", send: "how I love" },
     { label: "A chaotic one", send: "give me a chaotic one" },
     { label: "2am brain", send: "2am brain" },
+    { label: "Horses", send: "horses" },
+    { label: "Disney", send: "a disney one" },
     { label: "Make a new one", focus: true }
   ];
 

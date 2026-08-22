@@ -1,4 +1,4 @@
-/* whenever. five seeded quizzes */
+/* whenever. nine seeded quizzes */
 (function (global) {
   "use strict";
 
@@ -519,7 +519,416 @@
           C("Telling the lead what the scene was actually about.", "✂", ["foil"])
         ])
       ]
+    },
+    {
+      id: "horses",
+      title: "What kind of horse girl are you",
+      subtitle: "barn air, soft hands, a little stubborn",
+      cover: "img/cover-horses.png",
+      wash: "#8a6a3a",
+      word: "horses",
+      theme: "home",
+      resultOrder: ["mane", "rein", "pasture", "gallop"],
+      results: {
+        mane: {
+          name: "The Soft Mane",
+          short: "you speak horse before you speak people",
+          wash: "#6b7f6a",
+          image: "img/result-greenhouse.png",
+          p1: "You notice the ear flick before the person does. Barn air is your weather. Soft hands, long patience, a little stubborn in the best way.",
+          p2: "You don't perform \"horse girl.\" You just show up with the brush and the quiet. The animal decides you're safe, and that is the whole compliment.",
+          tells: [
+            "You talk softer in a stall than in a kitchen.",
+            "You remember who needs the extra cookie.",
+            "You would rearrange a whole day for a ride that makes someone breathe again."
+          ]
+        },
+        rein: {
+          name: "The Steady Rein",
+          short: "you hold the line so they can trust it",
+          wash: "#2c3344",
+          image: "img/result-architect.png",
+          p1: "You give the ride a floor. Warm-up, cool-down, the gate latched. Fun happens because you already decided where the fence is.",
+          p2: "Someone thinks you're controlling. You're trying not to drop a thousand pounds of feeling. Soft and exact is how you love a horse.",
+          tells: [
+            "You check the girth twice and still let them have the fun mile.",
+            "You make a plan for the trail and leave room for a detour.",
+            "People relax around you because the floor is not going to move."
+          ]
+        },
+        pasture: {
+          name: "The Open Pasture",
+          short: "you leave them room to be an animal",
+          wash: "#8a7d68",
+          image: "img/result-window.png",
+          p1: "You crack the day open and don't rush to fill it. Turnout, grass, the long nothing that is actually everything.",
+          p2: "You are not here to dominate. You are here to let something large and living be itself near you.",
+          tells: [
+            "You linger at the fence with nothing to prove.",
+            "You pick the quiet loop when the world is too loud.",
+            "You leave a little space they can walk around in."
+          ]
+        },
+        gallop: {
+          name: "The Sudden Gallop",
+          short: "you follow the spark in the saddle",
+          wash: "#c45c26",
+          image: "img/result-anarchist.png",
+          p1: "You say \"what if we just\" and mean it. The map was a suggestion. The good ride starts as a wrong turn with good footing.",
+          p2: "Your chaos has manners. You won't smash the horse. You'll just open a gate and see what the afternoon wants.",
+          tells: [
+            "You pick the idea that gets at least one heart rate honest.",
+            "Your best days start as a detour.",
+            "People call you unpredictable when they mean they felt the wind."
+          ]
+        }
+      },
+      questions: [
+        Q("Saturday at the barn. The aisles are still half-asleep.", [
+          C("You check the board, the water, the latch. Then coffee.", "✎", ["rein"]),
+          C("You go straight to the stall that always softens when you arrive.", "○", ["mane"]),
+          C("You crack the paddock gate and let the day be long.", "◇", ["pasture"]),
+          C("You say what if we just take the long trail before anyone plans it.", "✦", ["gallop"])
+        ]),
+        Q("A horse is spooky at the mounting block. Soft eyes, wrong energy.", [
+          C("You name it kindly, then you hold the line until the feet settle.", "✂", ["rein"]),
+          C("You breathe with them. Brush first. No rush to the saddle.", "🌿", ["mane"]),
+          C("You walk them out to grass until the world gets smaller again.", "◇", ["pasture"]),
+          C("You try a different door into the ride — new loop, same trust.", "✦", ["gallop"])
+        ]),
+        Q("Someone wants \"whatever\" for the afternoon ride.", [
+          C("You refuse whatever. You pick footing, distance, a finish.", "✎", ["rein"]),
+          C("You pick for the quietest horse and don't announce why.", "○", ["mane"]),
+          C("You pick the open field and leave room to wander.", "◇", ["pasture"]),
+          C("You pick the idea that gets at least one heart rate honest.", "✦", ["gallop"])
+        ]),
+        Q("A small barn rule is in the way of a better hour.", [
+          C("You keep it. Trouble is cheaper when the fence holds.", "✎", ["rein"]),
+          C("You ask who the rule is protecting. Then you decide.", "✂", ["mane"]),
+          C("You leave space around it — maybe the hour doesn't need a fight.", "◇", ["pasture"]),
+          C("You bend it softly and clean up after, like a gentleman thief.", "✦", ["gallop"])
+        ]),
+        Q("Rain shows up mid-ride. Not dramatic. Just wet.", [
+          C("You already planned the cool-down barn path. You take it.", "⚙", ["rein"]),
+          C("You talk softer. You finish the loop like a promise.", "○", ["mane"]),
+          C("You linger under the trees and let the weather finish its sentence.", "◇", ["pasture"]),
+          C("You laugh, open the next gate, and call it atmosphere.", "✦", ["gallop"])
+        ]),
+        Q("The day offers you one extra ride you didn't schedule.", [
+          C("You spend it setting tomorrow so the horses don't pay for tonight.", "⚙", ["rein"]),
+          C("You spend it on the one who needs the quiet brush most.", "○", ["mane"]),
+          C("You spend it doing almost nothing at the fence line.", "◇", ["pasture"]),
+          C("You spend it on the unwise trail you edited out at nine.", "✦", ["gallop"])
+        ])
+      ]
+    },
+    {
+      id: "disney",
+      title: "Which Disney night are you",
+      subtitle: "the credits version of you, not the poster",
+      cover: "img/cover-disney.png",
+      wash: "#3a4a7a",
+      word: "disney",
+      theme: "aesthetic",
+      resultOrder: ["overture", "villain", "chorus", "wish"],
+      results: {
+        overture: {
+          name: "The Overture",
+          short: "you build the world before the song",
+          wash: "#2c3344",
+          image: "img/result-architect.png",
+          p1: "You are the opening shot. The castle, the light, the promise that the night has architecture. People relax because you already set the key.",
+          p2: "Someone thinks you're controlling. You're scoring the evening so the feelings have somewhere to land.",
+          tells: [
+            "You pick the place with a last train and a good first song.",
+            "You make a list, then ignore half of it on purpose.",
+            "Fun happens because the floor holds."
+          ]
+        },
+        villain: {
+          name: "The Soft Villain",
+          short: "you say the true thing in a beautiful coat",
+          wash: "#9a4318",
+          image: "img/result-knife.png",
+          p1: "You name the wrong thing while it's still warm. Not to ruin the ball. To stop the room from lying through the waltz.",
+          p2: "Kind and sharp is a rare pairing. You would rather lose the pretty lie than keep a fake happily-ever-after.",
+          tells: [
+            "You name the thing everyone is stepping around.",
+            "Your compliments are specific enough to sting.",
+            "You refuse \"whatever.\" You make them want something."
+          ]
+        },
+        chorus: {
+          name: "The Loyal Chorus",
+          short: "you show up in everyone else's song",
+          wash: "#6a7380",
+          image: "img/result-satellite.png",
+          p1: "You take orbit like a vow. Not clinging — attending. You know where your people are in the ballroom without looking.",
+          p2: "You will rearrange your own weather so someone isn't alone in theirs. That's how you love: by being the harmony that holds.",
+          tells: [
+            "You wait to see who needs you first.",
+            "You remember the drink they didn't order last time.",
+            "You leave last, not because you have nowhere to go."
+          ]
+        },
+        wish: {
+          name: "The Midpoint Wish",
+          short: "you follow the spark before the third act",
+          wash: "#c45c26",
+          image: "img/result-anarchist.png",
+          p1: "You say \"what if we just\" and mean it. The itinerary was a suggestion. The good night starts as a wrong turn with excellent lighting.",
+          p2: "Your chaos has manners. You won't smash the castle. You'll just open a door that wasn't on the tour.",
+          tells: [
+            "Your best nights start as a wrong turn.",
+            "You spend the unwise hour you edited out at 9.",
+            "People call you unpredictable when they mean they felt something."
+          ]
+        }
+      },
+      questions: [
+        Q("It's Saturday. Someone puts on a princess movie. The room waits.", [
+          C("You dim the lamps, queue the snacks, set the key of the night.", "✎", ["overture"]),
+          C("You say the true thing about the plot before the second song.", "✂", ["villain"]),
+          C("You sit next to whoever went quiet and pass the blanket.", "○", ["chorus"]),
+          C("You suggest we start halfway in — the wish scene, not the prologue.", "✦", ["wish"])
+        ]),
+        Q("The group wants \"whatever\" for movie night.", [
+          C("You pick the place with a last train and a good first song.", "✎", ["overture"]),
+          C("You refuse whatever. You make them want something.", "✂", ["villain"]),
+          C("You pick for the quietest person and don't announce why.", "○", ["chorus"]),
+          C("You pick the idea that will get at least one heart honest.", "✦", ["wish"])
+        ]),
+        Q("Someone is being polite about a story beat that's actually wrong.", [
+          C("You change the lighting and the seating first. Mood, then truth.", "🌿", ["chorus"]),
+          C("You name it kindly before the waltz keeps lying.", "✂", ["villain"]),
+          C("You let it sit, then change the ending later.", "↝", ["wish"]),
+          C("You fix the playlist so the night still has a floor.", "⚙", ["overture"])
+        ]),
+        Q("A glass-slipper kind of plan is in the way of a better night.", [
+          C("You keep the spine. Fun is cheaper when the floor holds.", "✎", ["overture"]),
+          C("You rewrite the rule so it looks like it was always yours.", "↝", ["villain"]),
+          C("You break it softly and clean up after.", "✦", ["wish"]),
+          C("You ask who the rule is protecting. Then you decide with them.", "○", ["chorus"])
+        ]),
+        Q("Halfway through, the room gets cheap — phones, jokes that miss.", [
+          C("You already timed the snacks and the next song. You reset the key.", "⚙", ["overture"]),
+          C("You say the one sharp line that puts the story back on its feet.", "✂", ["villain"]),
+          C("You pull the quiet person back into orbit without a speech.", "○", ["chorus"]),
+          C("You open a door that wasn't on the tour — balcony, dessert run, detour.", "✦", ["wish"])
+        ]),
+        Q("Credits. One extra hour you didn't earn.", [
+          C("You spend it setting tomorrow so the night doesn't punish anyone.", "⚙", ["overture"]),
+          C("You spend it telling the true version of what just happened.", "✂", ["villain"]),
+          C("You spend it on the person who stayed.", "○", ["chorus"]),
+          C("You spend it on the unwise thing you edited out at nine.", "✦", ["wish"])
+        ])
+      ]
+    },
+    {
+      id: "fairies",
+      title: "What kind of fairy are you",
+      subtitle: "moss, mischief, a little dew",
+      cover: "img/cover-fairies.png",
+      wash: "#6b7f6a",
+      word: "fairies",
+      theme: "aesthetic",
+      resultOrder: ["dew", "thorn", "lantern", "mischief"],
+      results: {
+        dew: {
+          name: "The Morning Dew",
+          short: "you leave the world a little wetter, kinder",
+          wash: "#8a7d68",
+          image: "img/result-window.png",
+          p1: "You crack rooms open. Air, soft light, the nothing that is actually care. People leave you lighter.",
+          p2: "You are not loud magic. You are the open window with a good lamp.",
+          tells: [
+            "You linger in doorways until someone looks up.",
+            "You leave a little space they can walk around in.",
+            "You watch the storm finish its sentence."
+          ]
+        },
+        thorn: {
+          name: "The Soft Thorn",
+          short: "you protect the grove by being exact",
+          wash: "#9a4318",
+          image: "img/result-knife.png",
+          p1: "You say the true thing while it's still warm. Fairy rings need boundaries. You would rather a clean cut than rot under moss.",
+          p2: "Kind and sharp. If something is wrong in the clearing, you name it before the pretty lie grows roots.",
+          tells: [
+            "You name the thing everyone is stepping around.",
+            "You ask who the rule is protecting, then you decide.",
+            "Your compliments are specific enough to sting."
+          ]
+        },
+        lantern: {
+          name: "The Pocket Lantern",
+          short: "you grow people and rooms",
+          wash: "#6b7f6a",
+          image: "img/result-greenhouse.png",
+          p1: "You change the temperature until someone can grow. Moss, tea, the extra chair. Your magic looks like hospitality.",
+          p2: "You notice the plant and the person with the same attention. If something is alive, you refuse to let it go thirsty.",
+          tells: [
+            "You feed people without making a speech.",
+            "You remember who went quiet and sit next to them.",
+            "Your places keep souvenirs of kindness."
+          ]
+        },
+        mischief: {
+          name: "The Good Mischief",
+          short: "you follow the spark through the trees",
+          wash: "#c45c26",
+          image: "img/result-anarchist.png",
+          p1: "You open doors that weren't on the map. Soft chaos. The night gets a plot twist and a laugh.",
+          p2: "You won't smash the grove. You'll just rearrange the mushrooms so the walk gets interesting.",
+          tells: [
+            "You say \"what if we just\" and mean it.",
+            "Your best nights start as a wrong turn.",
+            "You break a small rule and clean up after."
+          ]
+        }
+      },
+      questions: [
+        Q("Dawn in an enchanted wood. Dew on everything. You have an hour.", [
+          C("You open a path of light — soft, exact, no rush to fill it.", "◇", ["dew"]),
+          C("You walk the ring and check which rules still deserve to stand.", "✂", ["thorn"]),
+          C("You set a little table: tea, moss, an extra chair for whoever arrives.", "🌿", ["lantern"]),
+          C("You rearrange the mushrooms so the walk gets interesting.", "✦", ["mischief"])
+        ]),
+        Q("Someone is lying beautifully in the clearing.", [
+          C("You leave air around them until they look up on their own.", "◇", ["dew"]),
+          C("You name it while it's still warm. Kind, and sharp.", "✂", ["thorn"]),
+          C("You change the temperature — food, lamp, a quieter seat.", "🌿", ["lantern"]),
+          C("You turn the lie into a better story before it roots.", "↝", ["mischief"])
+        ]),
+        Q("The grove wants \"whatever\" for the evening spell.", [
+          C("You pick the quiet loop and leave room to wander.", "◇", ["dew"]),
+          C("You refuse whatever. You make them want something true.", "✂", ["thorn"]),
+          C("You pick for the quietest person and don't announce why.", "○", ["lantern"]),
+          C("You pick the idea that gets at least one laugh honest.", "✦", ["mischief"])
+        ]),
+        Q("A fairy-ring rule is blocking a kinder night.", [
+          C("You watch the storm of it finish, then step softly around.", "◇", ["dew"]),
+          C("You ask who the rule is protecting, then you decide.", "✂", ["thorn"]),
+          C("You keep hospitality intact — feed people, then renegotiate.", "🌿", ["lantern"]),
+          C("You break it softly and clean up after.", "✦", ["mischief"])
+        ]),
+        Q("A friend went quiet under the trees.", [
+          C("You linger in the doorway of the moment until they look up.", "◇", ["dew"]),
+          C("You say the specific compliment that also tells the truth.", "✂", ["thorn"]),
+          C("You sit next to them with tea and no speech.", "○", ["lantern"]),
+          C("You invent a tiny quest that gets them moving again.", "✦", ["mischief"])
+        ]),
+        Q("The night offers one unwise spark through the woods.", [
+          C("You spend it doing nothing loud — window open, moss underfoot.", "◇", ["dew"]),
+          C("You spend it cutting one clean truth before bed.", "✂", ["thorn"]),
+          C("You spend it growing the room so tomorrow can hold them.", "🌿", ["lantern"]),
+          C("You say what if we just — and mean it.", "✦", ["mischief"])
+        ])
+      ]
+    },
+    {
+      id: "pixar",
+      title: "Which Pixar feeling are you",
+      subtitle: "found family, a lump in the throat, excellent lighting",
+      cover: "img/cover-pixar.png",
+      wash: "#c45c26",
+      word: "pixar",
+      theme: "friendship",
+      resultOrder: ["found", "glow", "montage", "credits"],
+      results: {
+        found: {
+          name: "The Found Family",
+          short: "you collect people like a second plot",
+          wash: "#6a7380",
+          image: "img/result-satellite.png",
+          p1: "You take orbit like a vow. Your people are a mismatched crew and you are the gravity. Not clinging — attending.",
+          p2: "You show up in the doorway without being summoned. The story works because you decided nobody eats alone.",
+          tells: [
+            "You wait to see who needs you first.",
+            "You remember the drink they didn't order.",
+            "You leave last, not because you have nowhere to go."
+          ]
+        },
+        glow: {
+          name: "The Warm Glow",
+          short: "you grow the room until it can hold a feeling",
+          wash: "#6b7f6a",
+          image: "img/result-greenhouse.png",
+          p1: "You change the temperature. Lamp, food, the chair that was missing. People become more themselves after an hour in your weather.",
+          p2: "You will not make a speech about devotion. You will make the scene possible. That's the whole short film.",
+          tells: [
+            "You feed people the way some people write letters.",
+            "You remember who went quiet.",
+            "Home keeps a glass out for people who aren't there yet."
+          ]
+        },
+        montage: {
+          name: "The Midpoint Montage",
+          short: "you change the ending from inside the scene",
+          wash: "#8a3a36",
+          image: "img/result-twist.png",
+          p1: "You read the room for the turn. If the night is cheap, you rewrite it before the sad song. Side character energy with main-character timing.",
+          p2: "You save a secret like a match, not a weapon. People leave your stories different than they entered them.",
+          tells: [
+            "You wait one extra beat before answering.",
+            "You turn a small disaster into the plot.",
+            "You let a wrong thing sit, then change the ending later."
+          ]
+        },
+        credits: {
+          name: "The Quiet Credits",
+          short: "the night runs because you decided it would",
+          wash: "#4a3a28",
+          image: "img/result-engine.png",
+          p1: "Lights, snacks, the extra blanket. Sequence. You keep the watch party running and almost never get credited for the electricity.",
+          p2: "That's fine. You like the hum. If everyone gets to the end of the movie okay, you held it.",
+          tells: [
+            "You already timed the last train.",
+            "You fix the mess before anyone else has to.",
+            "You're three small tasks into the evening before anyone notices."
+          ]
+        }
+      },
+      questions: [
+        Q("Watch party. Found-family energy. The couch is a cast list.", [
+          C("You're already counting who isn't here yet and saving a seat.", "○", ["found"]),
+          C("You fix the lamp, the snacks, the chair that was missing.", "🌿", ["glow"]),
+          C("You wait one beat, then suggest the film that will actually land.", "↝", ["montage"]),
+          C("You already timed the runtime against the last train.", "⚙", ["credits"])
+        ]),
+        Q("Someone in the crew is about to make a beautiful mistake.", [
+          C("You sit with them in it. No moral. Nobody eats that alone.", "○", ["found"]),
+          C("You change the temperature so they can feel it safely.", "🌿", ["glow"]),
+          C("You rewrite one detail so the mistake becomes the ending they needed.", "↝", ["montage"]),
+          C("You quietly pack what they'll need after the credits.", "⚙", ["credits"])
+        ]),
+        Q("The group says \"whatever\" when picking the movie.", [
+          C("You pick for the quietest person and don't announce why.", "○", ["found"]),
+          C("You grow the room first — food, light — then the title is easy.", "🌿", ["glow"]),
+          C("You refuse whatever. You make them want a feeling.", "✂", ["montage"]),
+          C("You pick the one that fits the night's actual logistics.", "✎", ["credits"])
+        ]),
+        Q("A small disaster hits mid-film: spill, wrong mood, phone buzz.", [
+          C("You pull the bruised person back into orbit without a speech.", "○", ["found"]),
+          C("You feed people and reset the glow like nothing broke.", "🌿", ["glow"]),
+          C("You turn the disaster into the plot. One extra beat. Better ending.", "↝", ["montage"]),
+          C("You fix the mess before anyone else has to notice.", "⚙", ["credits"])
+        ]),
+        Q("They cast you in one line in the group-chat bio.", [
+          C("the one who came back for you", "○", ["found"]),
+          C("the one who made the room warm enough", "🌿", ["glow"]),
+          C("the one who changed the ending", "↝", ["montage"]),
+          C("the one who planned it", "✎", ["credits"])
+        ]),
+        Q("Credits rolling. What are you doing.", [
+          C("Walking the last person to their door.", "○", ["found"]),
+          C("Leaving a glass out for whoever isn't there yet.", "🌿", ["glow"]),
+          C("Telling the quiet truth about what the night was actually about.", "✂", ["montage"]),
+          C("Resetting the room so tomorrow doesn't inherit the mess.", "⚙", ["credits"])
+        ])
+      ]
     }
+
   ];
 
   function hydrate(quiz) {

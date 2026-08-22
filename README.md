@@ -19,7 +19,7 @@ Google Fonts (Fraunces + Outfit) load if you're online. Offline, it falls back t
 
 ## What's here
 
-- **Home** — wordmark, a line to ask for a quiz, four starter chips, five covers
+- **Home** — wordmark, a line to ask for a quiz, starter chips, nine covers
 - **Chat** — talk to the bot; it answers in character and launches a quiz
 - **Quiz** — six questions, four choices, progress dots, back
 - **Result** — full-bleed image, two short paragraphs, three tells, copy, take another
@@ -58,3 +58,7 @@ Never put a key in the source files.
 3. How you actually love
 4. The 2am version of you
 5. Which side character are you
+6. What kind of horse girl are you
+7. Which Disney night are you
+8. What kind of fairy are you
+9. Which Pixar feeling are you
