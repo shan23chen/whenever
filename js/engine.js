@@ -471,157 +471,157 @@
   var TOPIC_TEMPLATES = [
     { text: "It's late. {topic} is the only thing still on the table.",
       choices: [
-        { t: "You make a frame for it, then let people get sloppy inside.", e: "✎", tags: ["spine"] },
-        { t: "You follow it like a spark. The clock can wait.", e: "✦", tags: ["spark"] },
-        { t: "You look around to see who else is still holding it.", e: "○", tags: ["keeper"] },
+        { t: "You frame it, sequence it, leave a spare plan under the napkin.", e: "✎", tags: ["spine"] },
+        { t: "You follow the heat in it. The clock can wait.", e: "✦", tags: ["spark"] },
+        { t: "You look around for who is still holding it, and you stay near.", e: "○", tags: ["keeper"] },
         { t: "You name what it actually is, before it gets prettier.", e: "✂", tags: ["blade"] }
       ] },
     { text: "Someone you love has a strong opinion about {topic}.",
       choices: [
-        { t: "You let them finish, then crack a window in the argument.", e: "◇", tags: ["spark"] },
-        { t: "You change the temperature until the opinion can sit down.", e: "🌿", tags: ["keeper"] },
-        { t: "You already see the turn. You wait for it.", e: "↝", tags: ["blade"] },
-        { t: "You fix the part they didn't realize was the problem.", e: "⚙", tags: ["spine"] }
+        { t: "You refuse their itinerary and take the detour the opinion was hiding.", e: "✦", tags: ["spark"] },
+        { t: "You stay near them until the opinion can sit down without wrecking anyone.", e: "○", tags: ["keeper"] },
+        { t: "You already see the floor under the fight. You build that first.", e: "✎", tags: ["spine"] },
+        { t: "You name the real disagreement underneath the opinion.", e: "✂", tags: ["blade"] }
       ] },
     { text: "{Topic} goes wrong in a small, fixable way.",
       choices: [
-        { t: "You already had the spare. Of course you did.", e: "⚙", tags: ["keeper"] },
-        { t: "Good. Perfect was getting on your nerves.", e: "✦", tags: ["spark"] },
-        { t: "You tell the truth about the dent, then keep going.", e: "✂", tags: ["blade"] },
-        { t: "You sketch a better version before anyone panics.", e: "✎", tags: ["spine"] }
+        { t: "Good. Perfect was getting on your nerves — you follow the new heat.", e: "✦", tags: ["spark"] },
+        { t: "You show up for whoever is still holding the broken bit.", e: "○", tags: ["keeper"] },
+        { t: "You already had the spare. Of course you did. Floor first.", e: "⚙", tags: ["spine"] },
+        { t: "You tell the unadorned truth about the dent, then keep going.", e: "✂", tags: ["blade"] }
       ] },
     { text: "You're asked to explain {topic} in one sentence, at a table that is listening.",
       choices: [
         { t: "You give the true sentence, unadorned.", e: "✂", tags: ["blade"] },
-        { t: "You make the room safer first, then say it.", e: "🌿", tags: ["spine"] },
-        { t: "You tell the version that changes what happens next.", e: "↝", tags: ["spark"] },
-        { t: "You leave a little air so someone else can finish it.", e: "◇", tags: ["keeper"] }
+        { t: "You attend to who still needs a softer landing, then you speak.", e: "○", tags: ["keeper"] },
+        { t: "You sketch the frame first so the sentence has somewhere to sit.", e: "✎", tags: ["spine"] },
+        { t: "You tell the version that opens a door nobody put on the list.", e: "✦", tags: ["spark"] }
       ] },
     { text: "The group chat goes quiet after you mention {topic}.",
       choices: [
-        { t: "You let it sit. If it's dead, it's dead.", e: "◇", tags: ["spark"] },
-        { t: "You send the follow-up that saves everyone.", e: "↝", tags: ["spine"] },
-        { t: "You privately check on the person it might have hit.", e: "○", tags: ["keeper"] },
-        { t: "You own it in one line. No performance.", e: "✂", tags: ["blade"] }
+        { t: "You own it in one line. No performance. Unadorned truth.", e: "✂", tags: ["blade"] },
+        { t: "You privately check on the person who still holds the bruise.", e: "○", tags: ["keeper"] },
+        { t: "You send the follow-up that gives the thread a floor again.", e: "✎", tags: ["spine"] },
+        { t: "You lean into the heat — the silence just got interesting.", e: "✦", tags: ["spark"] }
       ] },
     { text: "You have four minutes with {topic} before they arrive.",
       choices: [
-        { t: "Lights, sequence, the extra glass. You stage it.", e: "✎", tags: ["spine"] },
-        { t: "You hide the worst part and call that hospitality.", e: "⚙", tags: ["keeper"] },
-        { t: "You do nothing. They can meet it as it is.", e: "◇", tags: ["blade"] },
-        { t: "You start a mess that looks like a better story.", e: "↝", tags: ["spark"] }
+        { t: "Lights, sequence, the extra glass. You stage the floor.", e: "✎", tags: ["spine"] },
+        { t: "You stay near the part that still needs attending — hospitality as presence.", e: "○", tags: ["keeper"] },
+        { t: "You start a mess that looks like a better story. Follow the heat.", e: "↝", tags: ["spark"] },
+        { t: "You do almost nothing and name it as it is when they walk in.", e: "✂", tags: ["blade"] }
       ] },
     { text: "A stranger compliments the exact way you handle {topic}.",
       choices: [
-        { t: "You thank them like a door just opened.", e: "◇", tags: ["spark"] },
-        { t: "You file it. You'll use it later, carefully.", e: "✎", tags: ["spine"] },
-        { t: "You give it back, sharper and kinder.", e: "✂", tags: ["blade"] },
-        { t: "You change the subject so they don't see you blush.", e: "○", tags: ["keeper"] }
+        { t: "You give it back, sharper and kinder — the real compliment.", e: "✂", tags: ["blade"] },
+        { t: "You file it into a small system you'll use later, carefully.", e: "✎", tags: ["spine"] },
+        { t: "You change the subject so they don't see you blush — then you stay near the feeling.", e: "○", tags: ["keeper"] },
+        { t: "You thank them like a door just opened, and you walk through it.", e: "✦", tags: ["spark"] }
       ] },
     { text: "{Topic} is the reason the night could still turn.",
       choices: [
-        { t: "You stay near it. Gravity is a kind of loyalty.", e: "○", tags: ["keeper"] },
-        { t: "You decide what it lights. You don't start fires for sport.", e: "↝", tags: ["blade"] },
-        { t: "You keep the ice, the ride, the next step ready.", e: "⚙", tags: ["spine"] },
-        { t: "You walk toward it first so other people can follow.", e: "✦", tags: ["spark"] }
+        { t: "You walk toward the heat first so other people can follow.", e: "✦", tags: ["spark"] },
+        { t: "You stay near it. Showing up is a kind of loyalty.", e: "○", tags: ["keeper"] },
+        { t: "You keep the ice, the ride, the next step ready. Spare plan.", e: "⚙", tags: ["spine"] },
+        { t: "You name what it would actually light — no sport fires.", e: "✂", tags: ["blade"] }
       ] },
     { text: "You find a note about {topic} in someone else's handwriting.",
       choices: [
-        { t: "You keep the paper. Obviously.", e: "○", tags: ["keeper"] },
-        { t: "You study it like a floor plan.", e: "✎", tags: ["spine"] },
-        { t: "You write back something they won't expect.", e: "↝", tags: ["spark"] },
-        { t: "You feel it, then put it down before it owns the day.", e: "◇", tags: ["blade"] }
+        { t: "You keep the paper and stay near whoever wrote it.", e: "○", tags: ["keeper"] },
+        { t: "You study it like a floor plan. Sequence the next move.", e: "✎", tags: ["spine"] },
+        { t: "You write back something that refuses their itinerary.", e: "✦", tags: ["spark"] },
+        { t: "You name what the note is actually asking, then put it down.", e: "✂", tags: ["blade"] }
       ] },
     { text: "Dinner is late and nobody will say {topic} is why.",
       choices: [
-        { t: "You put bread down and change the subject to something real.", e: "🌿", tags: ["keeper"] },
         { t: "You say it out loud so the room can stop pretending.", e: "✂", tags: ["blade"] },
+        { t: "You put bread down and attend to whoever went quiet.", e: "○", tags: ["keeper"] },
         { t: "You're already in the kitchen, quietly making a second plan.", e: "⚙", tags: ["spine"] },
-        { t: "You turn the delay into the point of the night.", e: "↝", tags: ["spark"] }
+        { t: "You turn the delay into the detour that becomes the night.", e: "↝", tags: ["spark"] }
       ] },
     { text: "It's Saturday. {Topic} has no appointment and neither do you.",
       choices: [
-        { t: "You make a three-column list and ignore half of it on purpose.", e: "✎", tags: ["spine"] },
-        { t: "You text: I'm bored and slightly dangerous.", e: "✦", tags: ["spark"] },
-        { t: "You wait. Someone will need you, and this, together.", e: "○", tags: ["keeper"] },
-        { t: "You open a window and see who the day wants to be.", e: "◇", tags: ["blade"] }
+        { t: "You make a frame with three columns and leave air inside it.", e: "✎", tags: ["spine"] },
+        { t: "You follow the heat: no itinerary, on purpose.", e: "✦", tags: ["spark"] },
+        { t: "You wait near your people. Someone will need you and this, together.", e: "○", tags: ["keeper"] },
+        { t: "You name what you actually want from the day before it gets polite.", e: "✂", tags: ["blade"] }
       ] },
-    { text: "The last train is in nine minutes. {Topic} is two songs from done.",
+    { text: "You have nine minutes. {Topic} is two songs from done.",
       choices: [
-        { t: "You already timed this. You leave on the bridge.", e: "⚙", tags: ["spine"] },
-        { t: "You miss it. The night just got interesting.", e: "✦", tags: ["spark"] },
-        { t: "You take whoever else still needs a ride.", e: "○", tags: ["keeper"] },
+        { t: "You already timed this. You leave on the bridge. Floor holds.", e: "⚙", tags: ["spine"] },
+        { t: "You miss it. You follow the heat. The night just got interesting.", e: "✦", tags: ["spark"] },
+        { t: "You take whoever else still needs you through the door.", e: "○", tags: ["keeper"] },
         { t: "You name the choice so nobody pretends it isn't one.", e: "✂", tags: ["blade"] }
       ] },
     { text: "Someone cries in the next room. {Topic} is still open on the table.",
       choices: [
-        { t: "You go in. Sitting down is a complete sentence.", e: "○", tags: ["keeper"] },
-        { t: "You bring water and don't ask them to narrate.", e: "🌿", tags: ["spine"] },
-        { t: "You wait at the threshold until they look up.", e: "◇", tags: ["spark"] },
-        { t: "You go in and say the kind thing that is also true.", e: "✂", tags: ["blade"] }
+        { t: "You go in. Sitting down is how you show up.", e: "○", tags: ["keeper"] },
+        { t: "You bring water and a spare plan for the morning after.", e: "⚙", tags: ["spine"] },
+        { t: "You go in and say the kind thing that is also true.", e: "✂", tags: ["blade"] },
+        { t: "You open a window in the moment — refuse the tidy ending.", e: "✦", tags: ["spark"] }
       ] },
     { text: "You inherit {topic} the way some people inherit a houseplant.",
       choices: [
-        { t: "You research, repot, and give it a schedule.", e: "✎", tags: ["spine"] },
-        { t: "You talk to it like a roommate with bad habits.", e: "✦", tags: ["spark"] },
-        { t: "You put it in the best light and leave it some dignity.", e: "◇", tags: ["blade"] },
-        { t: "You ask who loved it first.", e: "○", tags: ["keeper"] }
+        { t: "You research, repot, and give it a schedule. Frame first.", e: "✎", tags: ["spine"] },
+        { t: "You talk to it like a roommate and follow whatever heat it still has.", e: "✦", tags: ["spark"] },
+        { t: "You ask who loved it first, then you stay near that story.", e: "○", tags: ["keeper"] },
+        { t: "You name what it actually needs — not what looks tender.", e: "✂", tags: ["blade"] }
       ] },
     { text: "A rumor about {topic} reaches you first.",
       choices: [
-        { t: "You kill it or confirm it. No half-life.", e: "✂", tags: ["blade"] },
-        { t: "You hold it until you know who it would hurt.", e: "🌿", tags: ["keeper"] },
-        { t: "You already knew. You've been watching the plot.", e: "↝", tags: ["spark"] },
-        { t: "You don't pass it. You're not a hallway.", e: "⚙", tags: ["spine"] }
+        { t: "You kill it or confirm it. No half-life. Unadorned.", e: "✂", tags: ["blade"] },
+        { t: "You hold it until you know who still needs protecting.", e: "○", tags: ["keeper"] },
+        { t: "You don't pass it. You're building a floor, not a hallway.", e: "⚙", tags: ["spine"] },
+        { t: "You already see the turn. You use the rumor to open a better door.", e: "↝", tags: ["spark"] }
       ] },
     { text: "The plan for {topic} falls apart at 6pm.",
       choices: [
-        { t: "You already had a second plan in your pocket.", e: "⚙", tags: ["spine"] },
-        { t: "Good. The first plan was getting too proud.", e: "✦", tags: ["spark"] },
-        { t: "You gather whoever's left and make a smaller, better night.", e: "🌿", tags: ["keeper"] },
+        { t: "You already had a second plan in your pocket. Spare floor.", e: "⚙", tags: ["spine"] },
+        { t: "Good. The first plan was getting too proud — follow the new heat.", e: "✦", tags: ["spark"] },
+        { t: "You gather whoever's left and stay near the smaller, better night.", e: "○", tags: ["keeper"] },
         { t: "You tell the truth about why it fell. Then you move.", e: "✂", tags: ["blade"] }
       ] },
     { text: "You're the first one awake. {Topic} is still in the kitchen.",
       choices: [
-        { t: "Coffee for a crowd that doesn't know it yet.", e: "🌿", tags: ["keeper"] },
-        { t: "You take the quiet like a private room.", e: "◇", tags: ["blade"] },
-        { t: "You check the doors, the milk, the day.", e: "⚙", tags: ["spine"] },
-        { t: "You start something slightly too ambitious for breakfast.", e: "✎", tags: ["spark"] }
+        { t: "Coffee for whoever still holds the night. You show up early.", e: "○", tags: ["keeper"] },
+        { t: "You check the doors, the milk, the sequence of the day.", e: "⚙", tags: ["spine"] },
+        { t: "You start something slightly too ambitious — refuse the quiet itinerary.", e: "✦", tags: ["spark"] },
+        { t: "You take the quiet and name what yesterday actually was.", e: "✂", tags: ["blade"] }
       ] },
     { text: "Someone asks what you want from {topic}. Really.",
       choices: [
         { t: "You tell them, unadorned.", e: "✂", tags: ["blade"] },
-        { t: "You want them to have a good night. You say that, and it's true.", e: "○", tags: ["keeper"] },
-        { t: "You want a plan that still has air in it.", e: "✎", tags: ["spine"] },
-        { t: "You want the thing that would surprise even you.", e: "✦", tags: ["spark"] }
+        { t: "You want to stay near the people inside it. You say that.", e: "○", tags: ["keeper"] },
+        { t: "You want a frame that still has air — sequence with room.", e: "✎", tags: ["spine"] },
+        { t: "You want the thing that would surprise even you. Follow the heat.", e: "✦", tags: ["spark"] }
       ] },
     { text: "The lights flicker. For a minute it's just you and {topic}.",
       choices: [
-        { t: "You find the candles before anyone jokes.", e: "⚙", tags: ["spine"] },
-        { t: "You enjoy the blackout like it was invited.", e: "✦", tags: ["spark"] },
-        { t: "You talk more softly. The dark is a room too.", e: "◇", tags: ["blade"] },
-        { t: "You sit nearer to the person who hates the dark.", e: "○", tags: ["keeper"] }
+        { t: "You find the candles before anyone jokes. Logistics as love.", e: "⚙", tags: ["spine"] },
+        { t: "You enjoy the blackout like a detour that was invited.", e: "✦", tags: ["spark"] },
+        { t: "You sit nearer to whoever still hates the dark.", e: "○", tags: ["keeper"] },
+        { t: "You say the true thing the dark finally makes easy.", e: "✂", tags: ["blade"] }
       ] },
     { text: "A letter arrives with no return address. It is about {topic}.",
       choices: [
-        { t: "You read it twice, then hide it somewhere kind.", e: "○", tags: ["keeper"] },
-        { t: "You look for the tell in the sentences.", e: "↝", tags: ["spark"] },
-        { t: "You want a name. Mystery without a person bores you.", e: "✂", tags: ["blade"] },
-        { t: "You leave it on the table for a day. Let it ripen.", e: "◇", tags: ["spine"] }
+        { t: "You keep it near. Showing up for a ghost is still attendance.", e: "○", tags: ["keeper"] },
+        { t: "You want a name. Mystery without a person bores you — say so.", e: "✂", tags: ["blade"] },
+        { t: "You sketch what to do next like a floor plan on the envelope.", e: "✎", tags: ["spine"] },
+        { t: "You write back something they won't expect. Refuse the closed ending.", e: "✦", tags: ["spark"] }
       ] },
     { text: "You walk past a window and {topic} is inside it, looking like your life.",
       choices: [
-        { t: "You notice what you'd restage.", e: "✎", tags: ["spine"] },
-        { t: "You feel briefly like a guest. Then you go in anyway.", e: "◇", tags: ["spark"] },
-        { t: "You look for the person in the room who needs you.", e: "○", tags: ["keeper"] },
-        { t: "You change one thing as soon as you cross the door.", e: "↝", tags: ["blade"] }
+        { t: "You notice what you'd reframe — sequence, light, the spare chair.", e: "✎", tags: ["spine"] },
+        { t: "You feel briefly like a guest. Then you take the detour in anyway.", e: "✦", tags: ["spark"] },
+        { t: "You look for who in the room still needs you near.", e: "○", tags: ["keeper"] },
+        { t: "You name the one dishonest thing as soon as you cross the door.", e: "✂", tags: ["blade"] }
       ] },
     { text: "The map is wrong. {Topic} is still good.",
       choices: [
-        { t: "You throw the map. The night just got a promotion.", e: "✦", tags: ["spark"] },
-        { t: "You make a new map from landmarks and snacks.", e: "✎", tags: ["spine"] },
-        { t: "You keep the group together first. Romance second.", e: "⚙", tags: ["blade"] },
-        { t: "You notice who is enjoying being lost, and stay near them.", e: "○", tags: ["keeper"] }
+        { t: "You throw the map. Follow the heat. The night just got a promotion.", e: "✦", tags: ["spark"] },
+        { t: "You make a new map from landmarks and snacks. Floor from scratch.", e: "✎", tags: ["spine"] },
+        { t: "You keep whoever's left together first. Stay near the crew.", e: "○", tags: ["keeper"] },
+        { t: "You name that you're lost so nobody has to pretend otherwise.", e: "✂", tags: ["blade"] }
       ] }
   ];
 
@@ -842,24 +842,24 @@
         short: "follows the heat",
         wash: "#c45c26",
         image: "img/result-anarchist.png",
-        p1: "You follow the heat in " + t + ". Not reckless — just unwilling to pretend the itinerary is more real than the mood.",
-        p2: "Your chaos has manners. You open a door that wasn't on the list and walk through it first. That's how " + t + " actually moves.",
+        p1: "You follow the heat in " + t + ". Detour over itinerary. Not reckless — just unwilling to pretend the schedule is more real than the mood.",
+        p2: "Your chaos has manners. You refuse the tidy map, open a door that wasn't on the list, and walk through it first. That's how " + t + " actually moves.",
         tells: [
           "You say \"what if we just\" about " + t + " and mean it.",
-          "Your best nights start as a wrong turn.",
+          "You refuse the itinerary when the heat says otherwise.",
           "People call you unpredictable when they mean they felt something."
         ]
       },
       keeper: {
         name: names.keeper,
-        short: "shows up and stays",
+        short: "shows up and stays near",
         wash: "#6a7380",
         image: "img/result-satellite.png",
-        p1: "You keep " + t + " by showing up. Not clinging — attending. You know where it lives in a room without looking.",
+        p1: "You keep " + t + " by showing up. Not clinging — attending. You stay near whoever still holds it.",
         p2: "You stay. That's the vow. " + T + " is less alone because you decided to be in range.",
         tells: [
           "You wait to see who still needs " + t + ".",
-          "You remember the version they didn't ask for last time.",
+          "You stay near the person still holding it.",
           "You leave last, not because you have nowhere to go."
         ]
       },
@@ -868,11 +868,11 @@
         short: "gives it a floor",
         wash: "#2c3344",
         image: "img/result-architect.png",
-        p1: "You give " + t + " a floor. A frame, then room for people to get sloppy inside it.",
+        p1: "You give " + t + " a floor. Frame, sequence, spare plan — then room for people to get sloppy inside it.",
         p2: "Someone thinks you're controlling. You're trying not to drop it. Fun happens because you already decided where the exit is.",
         tells: [
-          "You make a list for " + t + ", then ignore half of it on purpose.",
-          "You pick the place with a working last train.",
+          "You make a frame for " + t + ", then leave air inside it.",
+          "You keep a spare plan in your pocket.",
           "People relax because the floor is not going to move."
         ]
       },
@@ -881,12 +881,12 @@
         short: "names the real thing",
         wash: "#9a4318",
         image: "img/result-knife.png",
-        p1: "You name the real thing in " + t + " while it's still warm. Not to win. To stop the room from lying to itself.",
+        p1: "You name the real thing in " + t + " while it's still warm. Unadorned truth. Not to win — to stop the room from lying to itself.",
         p2: "Kind and sharp is how you stay. You would rather lose the pretty version than keep a fake peace.",
         tells: [
           "You name the part of " + t + " everyone is stepping around.",
-          "Your compliments are specific enough to sting a little.",
-          "You ask, then you pick the honest answer, not the cool one."
+          "You pick the honest answer, not the cool one.",
+          "Your compliments are specific enough to sting a little."
         ]
       }
     };
