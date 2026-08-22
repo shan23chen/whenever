@@ -471,157 +471,157 @@
   var TOPIC_TEMPLATES = [
     { text: "It's late. {topic} is the only thing still on the table.",
       choices: [
-        { t: "You make a frame for it, then let people get sloppy inside.", e: "✎", tags: ["architect"] },
-        { t: "You follow it like a spark. The clock can wait.", e: "✦", tags: ["anarchist"] },
-        { t: "You look around to see who else is still holding it.", e: "○", tags: ["satellite"] },
-        { t: "You name what it actually is, before it gets prettier.", e: "✂", tags: ["knife"] }
+        { t: "You make a frame for it, then let people get sloppy inside.", e: "✎", tags: ["spine"] },
+        { t: "You follow it like a spark. The clock can wait.", e: "✦", tags: ["spark"] },
+        { t: "You look around to see who else is still holding it.", e: "○", tags: ["keeper"] },
+        { t: "You name what it actually is, before it gets prettier.", e: "✂", tags: ["blade"] }
       ] },
     { text: "Someone you love has a strong opinion about {topic}.",
       choices: [
-        { t: "You let them finish, then crack a window in the argument.", e: "◇", tags: ["window"] },
-        { t: "You change the temperature until the opinion can sit down.", e: "🌿", tags: ["greenhouse"] },
-        { t: "You already see the turn. You wait for it.", e: "↝", tags: ["twist"] },
-        { t: "You fix the part they didn't realize was the problem.", e: "⚙", tags: ["engine"] }
+        { t: "You let them finish, then crack a window in the argument.", e: "◇", tags: ["spark"] },
+        { t: "You change the temperature until the opinion can sit down.", e: "🌿", tags: ["keeper"] },
+        { t: "You already see the turn. You wait for it.", e: "↝", tags: ["blade"] },
+        { t: "You fix the part they didn't realize was the problem.", e: "⚙", tags: ["spine"] }
       ] },
     { text: "{Topic} goes wrong in a small, fixable way.",
       choices: [
-        { t: "You already had the spare. Of course you did.", e: "⚙", tags: ["engine"] },
-        { t: "Good. Perfect was getting on your nerves.", e: "✦", tags: ["anarchist"] },
-        { t: "You tell the truth about the dent, then keep going.", e: "✂", tags: ["knife"] },
-        { t: "You sketch a better version before anyone panics.", e: "✎", tags: ["architect"] }
+        { t: "You already had the spare. Of course you did.", e: "⚙", tags: ["keeper"] },
+        { t: "Good. Perfect was getting on your nerves.", e: "✦", tags: ["spark"] },
+        { t: "You tell the truth about the dent, then keep going.", e: "✂", tags: ["blade"] },
+        { t: "You sketch a better version before anyone panics.", e: "✎", tags: ["spine"] }
       ] },
     { text: "You're asked to explain {topic} in one sentence, at a table that is listening.",
       choices: [
-        { t: "You give the true sentence, unadorned.", e: "✂", tags: ["knife"] },
-        { t: "You make the room safer first, then say it.", e: "🌿", tags: ["greenhouse"] },
-        { t: "You tell the version that changes what happens next.", e: "↝", tags: ["twist"] },
-        { t: "You leave a little air so someone else can finish it.", e: "◇", tags: ["window"] }
+        { t: "You give the true sentence, unadorned.", e: "✂", tags: ["blade"] },
+        { t: "You make the room safer first, then say it.", e: "🌿", tags: ["spine"] },
+        { t: "You tell the version that changes what happens next.", e: "↝", tags: ["spark"] },
+        { t: "You leave a little air so someone else can finish it.", e: "◇", tags: ["keeper"] }
       ] },
     { text: "The group chat goes quiet after you mention {topic}.",
       choices: [
-        { t: "You let it sit. If it's dead, it's dead.", e: "◇", tags: ["window"] },
-        { t: "You send the follow-up that saves everyone.", e: "↝", tags: ["twist"] },
-        { t: "You privately check on the person it might have hit.", e: "○", tags: ["satellite"] },
-        { t: "You own it in one line. No performance.", e: "✂", tags: ["knife"] }
+        { t: "You let it sit. If it's dead, it's dead.", e: "◇", tags: ["spark"] },
+        { t: "You send the follow-up that saves everyone.", e: "↝", tags: ["spine"] },
+        { t: "You privately check on the person it might have hit.", e: "○", tags: ["keeper"] },
+        { t: "You own it in one line. No performance.", e: "✂", tags: ["blade"] }
       ] },
     { text: "You have four minutes with {topic} before they arrive.",
       choices: [
-        { t: "Lights, sequence, the extra glass. You stage it.", e: "✎", tags: ["architect"] },
-        { t: "You hide the worst part and call that hospitality.", e: "⚙", tags: ["engine"] },
-        { t: "You do nothing. They can meet it as it is.", e: "◇", tags: ["window"] },
-        { t: "You start a mess that looks like a better story.", e: "↝", tags: ["twist"] }
+        { t: "Lights, sequence, the extra glass. You stage it.", e: "✎", tags: ["spine"] },
+        { t: "You hide the worst part and call that hospitality.", e: "⚙", tags: ["keeper"] },
+        { t: "You do nothing. They can meet it as it is.", e: "◇", tags: ["blade"] },
+        { t: "You start a mess that looks like a better story.", e: "↝", tags: ["spark"] }
       ] },
     { text: "A stranger compliments the exact way you handle {topic}.",
       choices: [
-        { t: "You thank them like a door just opened.", e: "◇", tags: ["window"] },
-        { t: "You file it. You'll use it later, carefully.", e: "✎", tags: ["architect"] },
-        { t: "You give it back, sharper and kinder.", e: "✂", tags: ["knife"] },
-        { t: "You change the subject so they don't see you blush.", e: "○", tags: ["satellite"] }
+        { t: "You thank them like a door just opened.", e: "◇", tags: ["spark"] },
+        { t: "You file it. You'll use it later, carefully.", e: "✎", tags: ["spine"] },
+        { t: "You give it back, sharper and kinder.", e: "✂", tags: ["blade"] },
+        { t: "You change the subject so they don't see you blush.", e: "○", tags: ["keeper"] }
       ] },
     { text: "{Topic} is the reason the night could still turn.",
       choices: [
-        { t: "You stay near it. Gravity is a kind of loyalty.", e: "○", tags: ["satellite"] },
-        { t: "You decide what it lights. You don't start fires for sport.", e: "↝", tags: ["twist"] },
-        { t: "You keep the ice, the ride, the next step ready.", e: "⚙", tags: ["engine"] },
-        { t: "You walk toward it first so other people can follow.", e: "✦", tags: ["anarchist"] }
+        { t: "You stay near it. Gravity is a kind of loyalty.", e: "○", tags: ["keeper"] },
+        { t: "You decide what it lights. You don't start fires for sport.", e: "↝", tags: ["blade"] },
+        { t: "You keep the ice, the ride, the next step ready.", e: "⚙", tags: ["spine"] },
+        { t: "You walk toward it first so other people can follow.", e: "✦", tags: ["spark"] }
       ] },
     { text: "You find a note about {topic} in someone else's handwriting.",
       choices: [
-        { t: "You keep the paper. Obviously.", e: "○", tags: ["satellite"] },
-        { t: "You study it like a floor plan.", e: "✎", tags: ["architect"] },
-        { t: "You write back something they won't expect.", e: "↝", tags: ["twist"] },
-        { t: "You feel it, then put it down before it owns the day.", e: "◇", tags: ["window"] }
+        { t: "You keep the paper. Obviously.", e: "○", tags: ["keeper"] },
+        { t: "You study it like a floor plan.", e: "✎", tags: ["spine"] },
+        { t: "You write back something they won't expect.", e: "↝", tags: ["spark"] },
+        { t: "You feel it, then put it down before it owns the day.", e: "◇", tags: ["blade"] }
       ] },
     { text: "Dinner is late and nobody will say {topic} is why.",
       choices: [
-        { t: "You put bread down and change the subject to something real.", e: "🌿", tags: ["greenhouse"] },
-        { t: "You say it out loud so the room can stop pretending.", e: "✂", tags: ["knife"] },
-        { t: "You're already in the kitchen, quietly making a second plan.", e: "⚙", tags: ["engine"] },
-        { t: "You turn the delay into the point of the night.", e: "↝", tags: ["twist"] }
+        { t: "You put bread down and change the subject to something real.", e: "🌿", tags: ["keeper"] },
+        { t: "You say it out loud so the room can stop pretending.", e: "✂", tags: ["blade"] },
+        { t: "You're already in the kitchen, quietly making a second plan.", e: "⚙", tags: ["spine"] },
+        { t: "You turn the delay into the point of the night.", e: "↝", tags: ["spark"] }
       ] },
     { text: "It's Saturday. {Topic} has no appointment and neither do you.",
       choices: [
-        { t: "You make a three-column list and ignore half of it on purpose.", e: "✎", tags: ["architect"] },
-        { t: "You text: I'm bored and slightly dangerous.", e: "✦", tags: ["anarchist"] },
-        { t: "You wait. Someone will need you, and this, together.", e: "○", tags: ["satellite"] },
-        { t: "You open a window and see who the day wants to be.", e: "◇", tags: ["window"] }
+        { t: "You make a three-column list and ignore half of it on purpose.", e: "✎", tags: ["spine"] },
+        { t: "You text: I'm bored and slightly dangerous.", e: "✦", tags: ["spark"] },
+        { t: "You wait. Someone will need you, and this, together.", e: "○", tags: ["keeper"] },
+        { t: "You open a window and see who the day wants to be.", e: "◇", tags: ["blade"] }
       ] },
     { text: "The last train is in nine minutes. {Topic} is two songs from done.",
       choices: [
-        { t: "You already timed this. You leave on the bridge.", e: "⚙", tags: ["engine"] },
-        { t: "You miss it. The night just got interesting.", e: "✦", tags: ["anarchist"] },
-        { t: "You take whoever else still needs a ride.", e: "○", tags: ["satellite"] },
-        { t: "You name the choice so nobody pretends it isn't one.", e: "✂", tags: ["knife"] }
+        { t: "You already timed this. You leave on the bridge.", e: "⚙", tags: ["spine"] },
+        { t: "You miss it. The night just got interesting.", e: "✦", tags: ["spark"] },
+        { t: "You take whoever else still needs a ride.", e: "○", tags: ["keeper"] },
+        { t: "You name the choice so nobody pretends it isn't one.", e: "✂", tags: ["blade"] }
       ] },
     { text: "Someone cries in the next room. {Topic} is still open on the table.",
       choices: [
-        { t: "You go in. Sitting down is a complete sentence.", e: "○", tags: ["satellite"] },
-        { t: "You bring water and don't ask them to narrate.", e: "🌿", tags: ["greenhouse"] },
-        { t: "You wait at the threshold until they look up.", e: "◇", tags: ["window"] },
-        { t: "You go in and say the kind thing that is also true.", e: "✂", tags: ["knife"] }
+        { t: "You go in. Sitting down is a complete sentence.", e: "○", tags: ["keeper"] },
+        { t: "You bring water and don't ask them to narrate.", e: "🌿", tags: ["spine"] },
+        { t: "You wait at the threshold until they look up.", e: "◇", tags: ["spark"] },
+        { t: "You go in and say the kind thing that is also true.", e: "✂", tags: ["blade"] }
       ] },
     { text: "You inherit {topic} the way some people inherit a houseplant.",
       choices: [
-        { t: "You research, repot, and give it a schedule.", e: "✎", tags: ["architect"] },
-        { t: "You talk to it like a roommate with bad habits.", e: "✦", tags: ["anarchist"] },
-        { t: "You put it in the best light and leave it some dignity.", e: "◇", tags: ["window"] },
-        { t: "You ask who loved it first.", e: "○", tags: ["satellite"] }
+        { t: "You research, repot, and give it a schedule.", e: "✎", tags: ["spine"] },
+        { t: "You talk to it like a roommate with bad habits.", e: "✦", tags: ["spark"] },
+        { t: "You put it in the best light and leave it some dignity.", e: "◇", tags: ["blade"] },
+        { t: "You ask who loved it first.", e: "○", tags: ["keeper"] }
       ] },
     { text: "A rumor about {topic} reaches you first.",
       choices: [
-        { t: "You kill it or confirm it. No half-life.", e: "✂", tags: ["knife"] },
-        { t: "You hold it until you know who it would hurt.", e: "🌿", tags: ["greenhouse"] },
-        { t: "You already knew. You've been watching the plot.", e: "↝", tags: ["twist"] },
-        { t: "You don't pass it. You're not a hallway.", e: "⚙", tags: ["engine"] }
+        { t: "You kill it or confirm it. No half-life.", e: "✂", tags: ["blade"] },
+        { t: "You hold it until you know who it would hurt.", e: "🌿", tags: ["keeper"] },
+        { t: "You already knew. You've been watching the plot.", e: "↝", tags: ["spark"] },
+        { t: "You don't pass it. You're not a hallway.", e: "⚙", tags: ["spine"] }
       ] },
     { text: "The plan for {topic} falls apart at 6pm.",
       choices: [
-        { t: "You already had a second plan in your pocket.", e: "⚙", tags: ["engine"] },
-        { t: "Good. The first plan was getting too proud.", e: "✦", tags: ["anarchist"] },
-        { t: "You gather whoever's left and make a smaller, better night.", e: "🌿", tags: ["greenhouse"] },
-        { t: "You tell the truth about why it fell. Then you move.", e: "✂", tags: ["knife"] }
+        { t: "You already had a second plan in your pocket.", e: "⚙", tags: ["spine"] },
+        { t: "Good. The first plan was getting too proud.", e: "✦", tags: ["spark"] },
+        { t: "You gather whoever's left and make a smaller, better night.", e: "🌿", tags: ["keeper"] },
+        { t: "You tell the truth about why it fell. Then you move.", e: "✂", tags: ["blade"] }
       ] },
     { text: "You're the first one awake. {Topic} is still in the kitchen.",
       choices: [
-        { t: "Coffee for a crowd that doesn't know it yet.", e: "🌿", tags: ["greenhouse"] },
-        { t: "You take the quiet like a private room.", e: "◇", tags: ["window"] },
-        { t: "You check the doors, the milk, the day.", e: "⚙", tags: ["engine"] },
-        { t: "You start something slightly too ambitious for breakfast.", e: "✎", tags: ["architect"] }
+        { t: "Coffee for a crowd that doesn't know it yet.", e: "🌿", tags: ["keeper"] },
+        { t: "You take the quiet like a private room.", e: "◇", tags: ["blade"] },
+        { t: "You check the doors, the milk, the day.", e: "⚙", tags: ["spine"] },
+        { t: "You start something slightly too ambitious for breakfast.", e: "✎", tags: ["spark"] }
       ] },
     { text: "Someone asks what you want from {topic}. Really.",
       choices: [
-        { t: "You tell them, unadorned.", e: "✂", tags: ["knife"] },
-        { t: "You want them to have a good night. You say that, and it's true.", e: "○", tags: ["satellite"] },
-        { t: "You want a plan that still has air in it.", e: "✎", tags: ["architect"] },
-        { t: "You want the thing that would surprise even you.", e: "✦", tags: ["anarchist"] }
+        { t: "You tell them, unadorned.", e: "✂", tags: ["blade"] },
+        { t: "You want them to have a good night. You say that, and it's true.", e: "○", tags: ["keeper"] },
+        { t: "You want a plan that still has air in it.", e: "✎", tags: ["spine"] },
+        { t: "You want the thing that would surprise even you.", e: "✦", tags: ["spark"] }
       ] },
     { text: "The lights flicker. For a minute it's just you and {topic}.",
       choices: [
-        { t: "You find the candles before anyone jokes.", e: "⚙", tags: ["engine"] },
-        { t: "You enjoy the blackout like it was invited.", e: "✦", tags: ["anarchist"] },
-        { t: "You talk more softly. The dark is a room too.", e: "◇", tags: ["window"] },
-        { t: "You sit nearer to the person who hates the dark.", e: "○", tags: ["satellite"] }
+        { t: "You find the candles before anyone jokes.", e: "⚙", tags: ["spine"] },
+        { t: "You enjoy the blackout like it was invited.", e: "✦", tags: ["spark"] },
+        { t: "You talk more softly. The dark is a room too.", e: "◇", tags: ["blade"] },
+        { t: "You sit nearer to the person who hates the dark.", e: "○", tags: ["keeper"] }
       ] },
     { text: "A letter arrives with no return address. It is about {topic}.",
       choices: [
-        { t: "You read it twice, then hide it somewhere kind.", e: "○", tags: ["satellite"] },
-        { t: "You look for the tell in the sentences.", e: "↝", tags: ["twist"] },
-        { t: "You want a name. Mystery without a person bores you.", e: "✂", tags: ["knife"] },
-        { t: "You leave it on the table for a day. Let it ripen.", e: "◇", tags: ["window"] }
+        { t: "You read it twice, then hide it somewhere kind.", e: "○", tags: ["keeper"] },
+        { t: "You look for the tell in the sentences.", e: "↝", tags: ["spark"] },
+        { t: "You want a name. Mystery without a person bores you.", e: "✂", tags: ["blade"] },
+        { t: "You leave it on the table for a day. Let it ripen.", e: "◇", tags: ["spine"] }
       ] },
     { text: "You walk past a window and {topic} is inside it, looking like your life.",
       choices: [
-        { t: "You notice what you'd restage.", e: "✎", tags: ["architect"] },
-        { t: "You feel briefly like a guest. Then you go in anyway.", e: "◇", tags: ["window"] },
-        { t: "You look for the person in the room who needs you.", e: "○", tags: ["satellite"] },
-        { t: "You change one thing as soon as you cross the door.", e: "↝", tags: ["twist"] }
+        { t: "You notice what you'd restage.", e: "✎", tags: ["spine"] },
+        { t: "You feel briefly like a guest. Then you go in anyway.", e: "◇", tags: ["spark"] },
+        { t: "You look for the person in the room who needs you.", e: "○", tags: ["keeper"] },
+        { t: "You change one thing as soon as you cross the door.", e: "↝", tags: ["blade"] }
       ] },
     { text: "The map is wrong. {Topic} is still good.",
       choices: [
-        { t: "You throw the map. The night just got a promotion.", e: "✦", tags: ["anarchist"] },
-        { t: "You make a new map from landmarks and snacks.", e: "✎", tags: ["architect"] },
-        { t: "You keep the group together first. Romance second.", e: "⚙", tags: ["engine"] },
-        { t: "You notice who is enjoying being lost, and stay near them.", e: "○", tags: ["satellite"] }
+        { t: "You throw the map. The night just got a promotion.", e: "✦", tags: ["spark"] },
+        { t: "You make a new map from landmarks and snacks.", e: "✎", tags: ["spine"] },
+        { t: "You keep the group together first. Romance second.", e: "⚙", tags: ["blade"] },
+        { t: "You notice who is enjoying being lost, and stay near them.", e: "○", tags: ["keeper"] }
       ] }
   ];
 
@@ -795,41 +795,119 @@
     }, rng);
   }
 
+  function isShortNounTopic(topic) {
+    var t = String(topic || "").trim();
+    if (!t || /\s/.test(t)) return false;
+    if (/^(me|you|i|we|us|them|it|this|that|my|our|your|a|an|the)$/i.test(t)) return false;
+    return true;
+  }
+
+  function phraseForNames(topic) {
+    var t = String(topic || "").trim();
+    if (!t) return "this";
+    if (isShortNounTopic(t)) return t.charAt(0).toUpperCase() + t.slice(1);
+    var m = t.match(/^(?:my|our)\s+(.+)$/i);
+    if (m) return "your " + m[1];
+    m = t.match(/^how\s+i\s+am\s+(?:at|in|on|around|during|about|with)\s+(.+)$/i);
+    if (m) return m[1];
+    return t;
+  }
+
+  function topicResultNames(topic) {
+    var nt = phraseForNames(topic);
+    var blade;
+    if (isShortNounTopic(String(topic || "").trim())) {
+      blade = "The honest " + nt;
+    } else if (/^your\s+/i.test(nt)) {
+      blade = "The honest one in " + nt;
+    } else {
+      blade = "The honest " + nt;
+    }
+    return {
+      spark: "The spark in " + nt,
+      keeper: "The one who keeps " + nt,
+      spine: "The spine of " + nt,
+      blade: blade
+    };
+  }
+
+  function buildTopicResults(topic) {
+    var pretty = String(topic || "this").trim() || "this";
+    var names = topicResultNames(pretty);
+    var t = pretty;
+    var T = displayTopic(t);
+    return {
+      spark: {
+        name: names.spark,
+        short: "follows the heat",
+        wash: "#c45c26",
+        image: "img/result-anarchist.png",
+        p1: "You follow the heat in " + t + ". Not reckless — just unwilling to pretend the itinerary is more real than the mood.",
+        p2: "Your chaos has manners. You open a door that wasn't on the list and walk through it first. That's how " + t + " actually moves.",
+        tells: [
+          "You say \"what if we just\" about " + t + " and mean it.",
+          "Your best nights start as a wrong turn.",
+          "People call you unpredictable when they mean they felt something."
+        ]
+      },
+      keeper: {
+        name: names.keeper,
+        short: "shows up and stays",
+        wash: "#6a7380",
+        image: "img/result-satellite.png",
+        p1: "You keep " + t + " by showing up. Not clinging — attending. You know where it lives in a room without looking.",
+        p2: "You stay. That's the vow. " + T + " is less alone because you decided to be in range.",
+        tells: [
+          "You wait to see who still needs " + t + ".",
+          "You remember the version they didn't ask for last time.",
+          "You leave last, not because you have nowhere to go."
+        ]
+      },
+      spine: {
+        name: names.spine,
+        short: "gives it a floor",
+        wash: "#2c3344",
+        image: "img/result-architect.png",
+        p1: "You give " + t + " a floor. A frame, then room for people to get sloppy inside it.",
+        p2: "Someone thinks you're controlling. You're trying not to drop it. Fun happens because you already decided where the exit is.",
+        tells: [
+          "You make a list for " + t + ", then ignore half of it on purpose.",
+          "You pick the place with a working last train.",
+          "People relax because the floor is not going to move."
+        ]
+      },
+      blade: {
+        name: names.blade,
+        short: "names the real thing",
+        wash: "#9a4318",
+        image: "img/result-knife.png",
+        p1: "You name the real thing in " + t + " while it's still warm. Not to win. To stop the room from lying to itself.",
+        p2: "Kind and sharp is how you stay. You would rather lose the pretty version than keep a fake peace.",
+        tells: [
+          "You name the part of " + t + " everyone is stepping around.",
+          "Your compliments are specific enough to sting a little.",
+          "You ask, then you pick the honest answer, not the cool one."
+        ]
+      }
+    };
+  }
+
   function generateFromAsk(ask, seed) {
     ask = String(ask == null ? "" : ask);
     var topic = stripTopic(ask);
     var theme = themeFromAsk(ask, topic);
     if (isGenericTopic(topic)) {
-      var generic = generateQuiz(theme === "general" ? "surprise" : theme, seed == null ? (ask + ":" + Date.now()) : seed);
-      generic.ask = ask;
-      generic.topic = "";
-      return generic;
+      var surprises = ["a long dinner", "the last train", "your group chat", "sunday morning", "the leftover wine", "a half-open window"];
+      var seedNum0 = hashSeed(seed == null ? (ask + ":" + Date.now()) : seed);
+      return generateFromAsk(surprises[seedNum0 % surprises.length], seed == null ? seedNum0 : seed);
     }
     var seedNum = hashSeed(seed == null ? (ask + ":" + Date.now()) : seed);
     var rng = mulberry32(seedNum);
-    var templates = shuffle(TOPIC_TEMPLATES, rng);
+    var templates = shuffle(TOPIC_TEMPLATES, rng).slice(0, 6);
     var topicQs = [];
     var i;
-    for (i = 0; i < 3 && i < templates.length; i++) {
+    for (i = 0; i < templates.length; i++) {
       topicQs.push(materializeTemplate(templates[i], topic, rng, i));
-    }
-    var bankQs = pickQuestions(theme === "general" ? "surprise" : theme, rng, 3);
-    var seen = {};
-    var mixed = [];
-    topicQs.concat(bankQs).forEach(function (q) {
-      if (!q || seen[q.id]) return;
-      seen[q.id] = true;
-      mixed.push(q);
-    });
-    mixed = shuffle(mixed, rng).slice(0, 6);
-    while (mixed.length < 6) {
-      var extra = pickQuestions("general", rng, 6);
-      for (i = 0; i < extra.length && mixed.length < 6; i++) {
-        if (seen[extra[i].id]) continue;
-        seen[extra[i].id] = true;
-        mixed.push(extra[i]);
-      }
-      break;
     }
     return {
       id: "ask-" + seedNum.toString(36),
@@ -841,48 +919,107 @@
       ask: ask,
       generated: true,
       seed: seedNum,
-      questions: mixed,
-      results: RESULT
+      questions: topicQs,
+      results: buildTopicResults(topic),
+      resultOrder: ["spark", "keeper", "spine", "blade"]
     };
   }
 
-  function emptyTally() {
+  function quizHasCustomResults(quiz) {
+    return !!(quiz && quiz.results && typeof quiz.results === "object" && !Array.isArray(quiz.results) && Object.keys(quiz.results).length);
+  }
+
+  function resultKeyOrder(quiz) {
+    var i, k, keys = [], seen = {};
+    if (quizHasCustomResults(quiz)) {
+      if (quiz.resultOrder && quiz.resultOrder.length) {
+        for (i = 0; i < quiz.resultOrder.length; i++) {
+          k = quiz.resultOrder[i];
+          if (quiz.results[k] && !seen[k]) { seen[k] = true; keys.push(k); }
+        }
+      }
+      Object.keys(quiz.results).forEach(function (id) {
+        if (!seen[id]) { seen[id] = true; keys.push(id); }
+      });
+      return keys;
+    }
+    return Object.keys(ARCHETYPES);
+  }
+
+  function resultImage(entry, id) {
+    if (entry && entry.image) {
+      if (/^img\//.test(entry.image) || /\.png$/i.test(entry.image)) return entry.image;
+      return "img/result-" + entry.image + ".png";
+    }
+    if (ARCHETYPES[id]) return "img/result-" + id + ".png";
+    return "img/result-architect.png";
+  }
+
+  function resolveResult(quiz, id) {
+    var custom = quiz && quiz.results && quiz.results[id];
+    var arch = ARCHETYPES[id] || {};
+    var stock = RESULT[id] || {};
+    if (custom && (custom.name || custom.p1 || custom.short || custom.tells)) {
+      return {
+        name: custom.name || arch.name || id,
+        short: custom.short || arch.short || "",
+        wash: custom.wash || arch.wash || "#2c3344",
+        image: resultImage(custom, id),
+        p1: custom.p1 || stock.p1 || "",
+        p2: custom.p2 || stock.p2 || "",
+        tells: (custom.tells || stock.tells || []).slice()
+      };
+    }
+    return {
+      name: arch.name || id,
+      short: arch.short || "",
+      wash: arch.wash || "#2c3344",
+      image: resultImage(custom, id),
+      p1: stock.p1 || "",
+      p2: stock.p2 || "",
+      tells: (stock.tells || []).slice()
+    };
+  }
+
+  function emptyTally(quiz) {
     var t = {};
-    Object.keys(ARCHETYPES).forEach(function (k) { t[k] = 0; });
+    resultKeyOrder(quiz).forEach(function (k) { t[k] = 0; });
     return t;
   }
 
   function score(answers, quiz) {
-    var tally = emptyTally();
+    var keys = resultKeyOrder(quiz);
+    var allowed = {};
+    keys.forEach(function (k) { allowed[k] = true; });
+    var tally = emptyTally(quiz);
     var qs = (quiz && quiz.questions) || [];
     answers.forEach(function (choiceIndex, qi) {
       var q = qs[qi];
       if (!q || !q.choices[choiceIndex]) return;
-      q.choices[choiceIndex].tags.forEach(function (tag) {
-        if (tally[tag] != null) tally[tag] += 1;
+      var tags = q.choices[choiceIndex].tags || [];
+      tags.forEach(function (tag) {
+        if (allowed[tag]) tally[tag] += 1;
       });
     });
-    var ranked = Object.keys(tally).sort(function (a, b) {
+    var ranked = keys.slice().sort(function (a, b) {
       if (tally[b] !== tally[a]) return tally[b] - tally[a];
-      return a < b ? -1 : 1;
+      return keys.indexOf(a) - keys.indexOf(b);
     });
     var winner = ranked[0];
     var runner = ranked[1];
-    var copy = (quiz && quiz.results && quiz.results[winner]) || RESULT[winner];
-    var arch = ARCHETYPES[winner];
-    var run = ARCHETYPES[runner];
-    var extra = writeFlavor(winner, runner, quiz && quiz.theme, quiz && quiz.topic);
+    var meta = resolveResult(quiz, winner);
+    var run = resolveResult(quiz, runner);
     return {
       winner: winner,
       runner: runner,
       tally: tally,
       ranked: ranked,
-      name: arch.name,
-      short: arch.short,
-      wash: arch.wash,
-      image: "img/result-" + winner + ".png",
-      paragraphs: [copy.p1, extra || copy.p2],
-      tells: copy.tells.slice(),
+      name: meta.name,
+      short: meta.short,
+      wash: meta.wash,
+      image: meta.image,
+      paragraphs: [meta.p1, meta.p2],
+      tells: meta.tells.slice(),
       runnerName: run.name
     };
   }
